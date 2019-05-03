@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity(), MainFragment.changeImage {
         setContentView(R.layout.activity_main)
     }
 
-    fun addImagetoList{
+    fun addImagetoList(){
         listImage.add(R.drawable.img7)
         listImage.add(R.drawable.img8)
         listImage.add(R.drawable.img9)
