@@ -33,7 +33,6 @@ class ImageFragment: Fragment() {
             .load("")
             .resize((this.resources.displayMetrics.widthPixels/this.resources.displayMetrics.density).toInt(),256)
             .centerCrop()
-            .error()
             .into(view.iv_image)
     }
 }
