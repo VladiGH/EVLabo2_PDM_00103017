@@ -11,9 +11,15 @@ class MainActivity : AppCompatActivity(), MainFragment.changeImage {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        addImagetoList()
         setContentView(R.layout.activity_main)
     }
 
+    fun addImagetoList{
+        listImage.add(R.drawable.img7)
+        listImage.add(R.drawable.img8)
+        listImage.add(R.drawable.img9)
+    }
 
     private fun changeFragment(id: Int, frag: Fragment){ supportFragmentManager.beginTransaction().replace(id, frag).commit() }
 

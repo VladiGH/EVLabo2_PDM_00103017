@@ -30,7 +30,7 @@ class ImageFragment: Fragment() {
 
     fun BindImage(view: View){
         Picasso.with(this.context)
-            .load("")
+            .load(R.drawable.img7)
             .resize((this.resources.displayMetrics.widthPixels/this.resources.displayMetrics.density).toInt(),256)
             .centerCrop()
             .into(view.iv_image)
