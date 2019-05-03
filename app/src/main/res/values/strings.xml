@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">EVLabo2</string>
+    <string name="previous">PREVIOUS</string>
+    <string name="forward">FORWARD</string>
 </resources>
